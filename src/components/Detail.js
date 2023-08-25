@@ -1,9 +1,9 @@
 import React from 'react';
 import { Typography, Stack, Button } from '@mui/material';
 
-import BodyPart from '../assets/icons/body-part.png';
-import Target from '../assets/icons/target.png';
-import Equipment from '../assets/icons/equipment.png';
+import BodyPartImage from '../assets/icons/body-part.png';
+import TargetImage from '../assets/icons/target.png';
+import EquipmentImage from '../assets/icons/equipment.png';
 
 
 const Detail = ({ exerciseDetail }) => {
@@ -11,17 +11,17 @@ const Detail = ({ exerciseDetail }) => {
 
     const extraDetail = [
         {
-            icon: BodyPart,
+            icon: BodyPartImage,
             name: bodyPart,
 
         },
         {
-            icon: Target,
+            icon: TargetImage,
             name: target,
             
         },
         {
-            icon: Equipment,
+            icon: EquipmentImage,
             name: equipment,
             
         }
